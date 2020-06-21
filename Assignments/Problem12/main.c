@@ -26,7 +26,7 @@ int main()
         for ( j = 0; j < y; j++)
         {
             printf("matrix_1[%d][%d]=%d", i,j,matrix_1[i][j]);
-            if (j==3)
+            if (j==y)
             {
                 printf("\n");
             }
